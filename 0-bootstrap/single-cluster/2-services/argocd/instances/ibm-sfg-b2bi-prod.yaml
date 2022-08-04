@@ -13,12 +13,12 @@ metadata:
 spec:
   ignoreDifferences:
   - group: apps
-    kind: StatefulSet
+    kind: StatefulSets
     name: ibm-sfg-b2bi-sfg-ac-server
     jsonPointers:
     - /spec/replicas
   - group: apps
-    kind: StatefulSet
+    kind: StatefulSets
     name: ibm-sfg-b2bi-sfg-asi-server
     jsonPointers:
     - /spec/replicas
